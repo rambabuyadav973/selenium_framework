@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="21" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-19T21:09:46 IST" name="Suite" finished-at="2023-05-19T21:11:45 IST" duration-ms="118813">
+    <groups>
+    </groups>
+    <test started-at="2023-05-19T21:09:46 IST" name="Test" finished-at="2023-05-19T21:11:45 IST" duration-ms="118813">
+      <class name="tests.verifylogin">
+        <test-method signature="executeLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifylogin@1a6d8329]" started-at="2023-05-19T21:11:09 IST" name="executeLogin" data-provider="login" finished-at="2023-05-19T21:11:26 IST" duration-ms="16230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ram07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLogin -->
+        <test-method signature="executeLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifylogin@1a6d8329]" started-at="2023-05-19T21:11:26 IST" name="executeLogin" data-provider="login" finished-at="2023-05-19T21:11:26 IST" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234@Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLogin -->
+        <test-method signature="executeLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifylogin@1a6d8329]" started-at="2023-05-19T21:11:26 IST" name="executeLogin" data-provider="login" finished-at="2023-05-19T21:11:35 IST" duration-ms="8872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[submit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLogin -->
+      </class> <!-- tests.verifylogin -->
+      <class name="tests.verifylogout">
+        <test-method signature="logout(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifylogout@1a942c18]" started-at="2023-05-19T21:11:35 IST" name="logout" data-provider="logout" finished-at="2023-05-19T21:11:44 IST" duration-ms="9066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linkText]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SIGN-OFF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[logout]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://demo.guru99.com/test/newtours/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="logout(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifylogout@1a942c18]" started-at="2023-05-19T21:11:44 IST" name="logout" data-provider="logout" finished-at="2023-05-19T21:11:45 IST" duration-ms="561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[close browser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.verifylogout -->
+      <class name="tests.verifyregister">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:09:46 IST" name="setup" finished-at="2023-05-19T21:10:01 IST" duration-ms="15299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:04 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:28 IST" duration-ms="23912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[open browser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://demo.guru99.com/test/newtours/register.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:28 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:38 IST" duration-ms="10234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:38 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:39 IST" duration-ms="1112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:39 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:40 IST" duration-ms="531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.09090909E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:40 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:40 IST" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ram@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:40 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:41 IST" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[S_AFR,Shollinganalur,Chennnai,TN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:41 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:41 IST" duration-ms="818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:41 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:42 IST" duration-ms="650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[state]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:42 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:49 IST" duration-ms="7355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[postalCode]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[600119.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:49 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:52 IST" duration-ms="2070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[select]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALGERIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:52 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:52 IST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ram07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:52 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:52 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234@Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:52 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:10:52 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234@Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+        <test-method signature="verifyingregister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.verifyregister@6340e5f0]" started-at="2023-05-19T21:10:52 IST" name="verifyingregister" data-provider="register" finished-at="2023-05-19T21:11:06 IST" duration-ms="14030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[submit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingregister -->
+      </class> <!-- tests.verifyregister -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
